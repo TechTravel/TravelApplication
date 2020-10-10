@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">TravelApplication</string>
+    <string name="fname">Full Name</string>
+    <string name="ac">AC</string>
+    <string name="nac">Non AC</string>
+    <string-array name="no_of_rooms">
+        <item>1</item>>
+        <item>2</item>>
+        <item>3</item>>
+        <item>4</item>>
+        <item>5</item>>
+    </string-array>
+    >
+
+    <string-array name="no_of_guests">
+        <item>1</item>>
+        <item>2</item>>
+        <item>3</item>>
+        <item>4</item>>
+        <item>5</item>>
+        <item>6</item>>
+        <item>7</item>>
+        <item>8</item>>
+        <item>9</item>>
+        <item>10</item>>
+    </string-array>
+    >
+
+    <string-array name="no_of_nights">
+        <item>1</item>>
+        <item>2</item>>
+        <item>3</item>>
+        <item>4</item>>
+        <item>5</item>>
+        <item>6</item>>
+        <item>7</item>>
+        <item>8</item>>
+        <item>9</item>>
+        <item>10</item>>
+    </string-array>
+    >
+
+    <string-array name="cardtype">
+        <item>Visa Card</item>>
+        <item>Debit Card</item>>
+        <item>Visa Card</item>>
+
+    </string-array>
+    >
+</resources>
