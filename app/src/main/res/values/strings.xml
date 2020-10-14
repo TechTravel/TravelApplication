@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Travelapplication</string>
+
+    <string-array name="names">
+        <item>Select a District</item>
+        <item> Kandy </item>
+        <item> Mathale </item>
+        <item> Badulla </item>
+    </string-array>
+</resources>

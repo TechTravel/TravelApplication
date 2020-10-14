@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.travelapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Waterfallone"></activity>
+        <activity android:name=".Mathalecampone" />
+        <activity android:name=".kandymountainone" />
+        <activity android:name=".ToDoOne" />
+        <activity android:name=".Batadobalena" />
+        <activity android:name=".exploresl" />
+        <activity android:name=".DaladaMaligawa" />
+        <activity android:name=".badullamountainone" />
+        <activity android:name=".mathalemountainone" />
+        <activity android:name=".badullacampings" />
+        <activity android:name=".badullawaterfalls" />
+        <activity android:name=".badullamountains" />
+        <activity android:name=".mathalecamping" />
+        <activity android:name=".mathalewaterfalls" />
+        <activity android:name=".mathalemountains" />
+        <activity android:name=".map" />
+        <activity android:name=".thingstodo" />
+        <activity android:name=".kandycampone" />
+        <activity android:name=".kandycamping" />
+        <activity android:name=".kandydistrict" />
+        <activity android:name=".kadiyanlena" />
+        <activity android:name=".kandywaterfalls" />
+        <activity android:name=".Hanthana" />
+        <activity android:name=".kandymountains" />
+        <activity android:name=".Badulla" />
+        <activity android:name=".mathale" />
+        <activity android:name=".ImageThree" />
+        <activity android:name=".ImageTwo" />
+        <activity android:name=".ImageOne" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

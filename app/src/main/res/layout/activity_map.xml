@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backmap"
+    tools:context=".map">
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageView"
+        android:layout_width="459dp"
+        android:layout_height="411dp"
+
+        android:layout_marginEnd="11dp"
+        android:src="@drawable/artgif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/textone"
+        android:layout_width="234dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="89dp"
+        android:layout_marginBottom="22dp"
+        android:hint="Enter Source Location"
+        android:padding="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/texttwo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/texttwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="89dp"
+        android:layout_marginEnd="88dp"
+        android:layout_marginBottom="55dp"
+        android:hint="Enter Destination Location"
+        android:padding="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnmap"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textone" />
+
+    <Button
+        android:id="@+id/btnmap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="162dp"
+        android:layout_marginEnd="162dp"
+        android:layout_marginBottom="168dp"
+        android:background="@drawable/mapbutto0nback"
+        android:text="TRACK"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#EDE6E6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/texttwo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

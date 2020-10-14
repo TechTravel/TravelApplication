@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Waterfallone">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/dog1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/fallone" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/next"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/fallone"
+                    android:visibility="visible" />
+
+                <Button
+                    android:id="@+id/next2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/falltwo"
+                    android:textSize="14sp"
+                    android:visibility="visible" />
+
+                <Button
+                    android:id="@+id/next3"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/fallthree"
+                    android:textSize="14sp"
+                    android:visibility="visible" />
+
+                <Button
+                    android:id="@+id/next4"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/fallfour"
+
+                    android:visibility="visible" />
+
+                <Button
+                    android:id="@+id/next5"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/fallfive"
+                    android:textSize="14sp"
+                    android:visibility="visible" />
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:background="#FFFFFF"
+            android:fontFamily="sans-serif-black"
+            android:text=" LAKSHAPANA FALLS"
+            android:textSize="18sp" />
+
+
+        <com.borjabravo.readmoretextview.ReadMoreTextView
+            android:id="@+id/text_view1"
+            android:layout_width="match_parent"
+            android:layout_height="264dp"
+            android:background="#FFFFFF"
+            android:text="The magnificent 129 m tall horsetail fall Lakshapana Ella, also spelt Laxapana Ella, is one of the top 10 waterfalls of Sri Lanka concerning height. Lakshapana Falls is located 9 km west of Norton Bridge by road, which is a village at the road from Ginigathena Pass to Castlereigh Reservoir. The Lakshapana waterfall belongs to the village of Kiriwan-Eliya in the Ginigathena Division of Nuwara Eliya District. The small settlement situated closest to  the waterfalls is simply known as “Laksapana Gama”, which translates to “Lakshapana village”. There is a guesthouse available in the village. Not surprisingly, its name is “Lakshapana Rest”. The montane region is known as Ambagamuwa Korale."
+            android:textSize="17dp"
+            app:colorClickableText="#43A6F5"
+            app:trimCollapsedText="@string/read_more"
+            app:trimExpandedText="@string/read_less"
+            app:trimLength="200"
+            app:trimMode="trimModeLength" />
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="14dp"
+            android:background="#FFFFFF"
+            android:fontFamily="sans-serif-black"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="274dp"
+            android:layout_height="37dp"
+            android:background="@drawable/roundspin"
+            android:text="ADD TO FAVOURITE" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="14dp"
+            android:background="#FFFFFF"
+            android:fontFamily="sans-serif-black"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+
+            <ImageButton
+
+                android:layout_width="162dp"
+                android:layout_height="100dp"
+                android:background="@drawable/amayahillsmain" />
+
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="100dp"
+                android:background="#FFFFFF"
+                android:fontFamily="sans-serif-black"
+                android:text="AMAYA HILLS KANDY
+
+
+
+
+
+
+
+ Amaya Hills welcomes you to graceful private havens
+
+
+
+
+     LKR 5000/= Per Day "
+                android:textSize="11sp" />
+
+            <Button
+                android:layout_width="82dp"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:foreground="@drawable/booknow" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="14dp"
+                android:background="#FFFFFF"
+                android:fontFamily="sans-serif-black"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+
+            <ImageButton
+
+                android:layout_width="161dp"
+                android:layout_height="100dp"
+                android:background="@drawable/devonimg" />
+
+            <TextView
+                android:layout_width="141dp"
+                android:layout_height="100dp"
+                android:background="#FFFFFF"
+                android:fontFamily="sans-serif-black"
+                android:text="
+DEVON REST
+
+
+
+                            Devon is with Sri Lankan, Western, and Chinese offerings on its menu.
+
+
+
+                           LKR 4500/= Per Day "
+
+                android:textSize="11dp" />
+
+            <Button
+                android:layout_width="82dp"
+                android:layout_height="wrap_content"
+                android:foreground="@drawable/booknow" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

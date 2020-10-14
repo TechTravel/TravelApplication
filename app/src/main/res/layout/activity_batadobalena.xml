@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Batadobalena">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/dog1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/dog1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="531dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:srcCompat="@drawable/bataone" />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView3"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginBottom="431dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/next"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/bataone"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/next2"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/batatwo"
+                android:textSize="14sp"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/next3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/batathree"
+                android:textSize="14sp"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/next4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/batafour"
+
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/next5"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/batafive"
+                android:textSize="14sp"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_marginTop="20dp"
+        android:background="#FFFFFF"
+        android:fontFamily="sans-serif-black"
+        android:text="   BATADOBA LENA"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+
+
+            <com.borjabravo.readmoretextview.ReadMoreTextView
+                android:id="@+id/text_view1"
+                android:layout_width="388dp"
+                android:layout_height="318dp"
+                android:layout_marginTop="8dp"
+                android:background="#FFFFFF"
+                android:text="  Hanthana Mountain range is made up with various mountain peaks and it is a popular destination among the mountain hikers in Sri Lanka, especially among the university students as well as foreigners. This hike was a sudden decision of us since we felt the months of heavy rains just over.
+ Hanthana Mountain range is made up with various mountain peaks and it is a popular destination among the mountain hikers in Sri Lanka, especially among the university students as well as foreigners. This hike was a sudden decision of us since we felt the months of heavy rains just over. Hanthana Mountain range is made up with various mountain peaks and it is a popular destination among the mountain hikers in Sri Lanka, especially among the university students as well as foreigners. This hike was a sudden decision of us since we felt the months of heavy rains just over."
+                android:textSize="17dp"
+                app:colorClickableText="#43A6F5"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView5"
+                app:layout_constraintVertical_bias="0.0"
+                app:trimCollapsedText="@string/read_more"
+                app:trimExpandedText="@string/read_less"
+                app:trimLength="200"
+                app:trimMode="trimModeLength" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
