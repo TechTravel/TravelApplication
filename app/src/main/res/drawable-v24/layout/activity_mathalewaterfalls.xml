@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mathalewaterfalls">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/mountain2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#FFFFFF"
+            android:foreground="@drawable/mbabarakiriella"
+            android:text="WATERFALLS"
+            android:textSize="14sp"
+            android:visibility="visible" />
+
+
+        <Button
+            android:id="@+id/kandymountains"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#FFFFFF"
+            android:foreground="@drawable/msembuwatta"
+            android:text="WATERFALLS"
+            android:textSize="14sp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/mountain5"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#FFFFFF"
+            android:foreground="@drawable/rambodatxt"
+            android:text="WATERFALLS"
+            android:textSize="14sp"
+            android:visibility="visible" />
+
+
+        <Button
+            android:id="@+id/mount1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#FFFFFF"
+            android:foreground="@drawable/lebonanstatetxt"
+            android:text="WATERFALLS"
+            android:textSize="14sp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/mountain6"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#FFFFFF"
+            android:foreground="@drawable/kadiyanlenatxt"
+            android:text="WATERFALLS"
+            android:textSize="14sp"
+            android:visibility="visible" />
+
+
+
+    </LinearLayout>
+
+</ScrollView>

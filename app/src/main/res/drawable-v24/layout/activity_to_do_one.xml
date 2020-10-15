@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ToDoOne">
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView3"
+        android:layout_width="0dp"
+        android:layout_height="300dp"
+        android:layout_marginBottom="431dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/next"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:background="@drawable/baloonone"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/next2"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:background="@drawable/baloontwo"
+                android:textSize="14sp"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/next3"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:background="@drawable/baloonthree"
+                android:textSize="14sp"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/next4"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:background="@drawable/baloonfour"
+
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/next5"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:background="@drawable/baloonfive"
+                android:textSize="14sp"
+                android:visibility="visible" />
+
+
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+
+    <com.borjabravo.readmoretextview.ReadMoreTextView
+        android:id="@+id/text_view1"
+        android:layout_width="391dp"
+        android:layout_height="250dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="180dp"
+        android:background="#FFFFFF"
+        android:text="  The height at which we fly will vary from tree top level – where we enjoy contour flying at low level to several thousand feet up: the perfect vantage point to observe the majesty of Dambulla – Kandalama area. The climate in Dambulla – Kandalama is exceptional for flying balloons, due to its extremely calm and predictable nature.
+Sri Lanka Balloon Rides generally take place in the early morning (because the weather is more stable), and the average distance we cover, in accordance with the wind speed and direction, is anywhere from one to ten miles."
+        android:textAlignment="center"
+        android:textSize="17dp"
+        app:colorClickableText="#43A6F5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintVertical_bias="0.0"
+        app:trimCollapsedText="@string/read_more"
+        app:trimExpandedText="@string/read_less"
+        app:trimLength="200"
+        app:trimMode="trimModeLength" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageView"
+        android:layout_width="232dp"
+        android:layout_height="182dp"
+
+        android:layout_marginTop="300dp"
+        android:src="@drawable/gifgit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

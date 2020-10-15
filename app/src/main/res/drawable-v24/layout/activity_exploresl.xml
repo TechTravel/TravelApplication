@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/slback"
+    tools:context=".exploresl">
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageView"
+        android:layout_width="522dp"
+        android:layout_height="318dp"
+
+        android:layout_marginEnd="11dp"
+        android:src="@drawable/cargif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.459"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="match_parent"
+                android:layout_height="168dp"
+                android:background="#FFFFFF"
+                android:foreground="@drawable/slbatadobalena"
+                android:text="WATERFALLS"
+                android:textSize="14sp"
+                android:visibility="visible"
+
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="290dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginBottom="10dp"
+
+                />
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="match_parent"
+                android:layout_height="168dp"
+                android:background="#FFFFFF"
+                android:foreground="@drawable/orgbahirawakanda"
+                android:text="WATERFALLS"
+                android:textSize="14sp"
+                android:visibility="visible"
+
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginBottom="10dp"
+                />
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="match_parent"
+                android:layout_height="168dp"
+                android:background="#FFFFFF"
+                android:foreground="@drawable/slgallfort"
+                android:text="WATERFALLS"
+                android:textSize="14sp"
+                android:visibility="visible"
+
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginBottom="10dp"/>
+
+
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="match_parent"
+                android:layout_height="168dp"
+                android:background="#FFFFFF"
+                android:foreground="@drawable/slpolonnaruwa"
+                android:text="WATERFALLS"
+                android:textSize="14sp"
+                android:visibility="visible"
+
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginBottom="10dp"/>
+
+            <Button
+                android:id="@+id/btn5"
+                android:layout_width="match_parent"
+                android:layout_height="168dp"
+                android:background="#FFFFFF"
+                android:foreground="@drawable/slsigiriya"
+                android:text="WATERFALLS"
+                android:textSize="14sp"
+                android:visibility="visible"
+
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginBottom="10dp"
+                />
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
