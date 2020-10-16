@@ -108,11 +108,11 @@
             android:textSize="14sp" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/feedback"
             android:layout_width="274dp"
             android:layout_height="37dp"
             android:background="@drawable/roundspin"
-            android:text="ADD TO FAVOURITE" />
+            android:text="GIVE YOUR FEEDBACK" />
 
         <TextView
             android:layout_width="match_parent"

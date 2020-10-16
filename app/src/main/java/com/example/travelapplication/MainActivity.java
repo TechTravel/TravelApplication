@@ -26,6 +26,8 @@ public class MainActivity extends AppCompatActivity {
 
     private Button maliga ;
 
+    private Button feeds ;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -103,6 +105,8 @@ public class MainActivity extends AppCompatActivity {
                 });
 
 
+
+
             }
 
             public void openTodo(){
@@ -127,12 +131,16 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+
+
+
+
+
             @Override
             public  void onNothingSelected(AdapterView<?> parent){
 
             }
         });
-
 
 
     }

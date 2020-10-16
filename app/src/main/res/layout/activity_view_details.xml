@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bacground_color"
+    tools:context=".view_details">
+
+
+    <Button
+        android:id="@+id/Btnvback"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/custom_button"
+        android:text="@string/back"
+        app:layout_constraintBottom_toTopOf="@+id/btnDownload"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnDownload"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/custom_button"
+        android:text="@string/download"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/Image"
+        android:layout_width="395dp"
+        android:layout_height="146dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/Btnvback"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Image">
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textview1"
+            android:text="Destination :"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/Tv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F4B4DB"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textview1"
+            android:text="Duration in day :"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/Tv2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F4B4DB"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textview1"
+            android:text="Mode of transportation :"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/Tv3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F4B4DB"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textview1"
+            android:text="Accommodation :"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/Tv4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F4B4DB"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textview1"
+            android:text="Budget :"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/Tv5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F4B4DB"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textview1"
+            android:text="Description :"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/Tv7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F4B4DB"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -10,11 +10,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class Hanthana extends AppCompatActivity {
 
-  //  private ImageView view1 ;
-
     Button b , b1 , b2, b3, b4, b5  ;
     ImageView img;
-    Button booking1 ;
+    Button booking1 , feedbacks ;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -74,12 +73,29 @@ public class Hanthana extends AppCompatActivity {
             }
         });
 
+        feedbacks = (Button) findViewById(R.id.feedback);
+        feedbacks.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                openFeedbacks();
+            }
+        });
+
+
+
     }
 
     public void openBookings(){
         Intent intent = new Intent(Hanthana.this, HotelRoomBooking.class);
         startActivity(intent);
     }
+
+    public void openFeedbacks(){
+        Intent intent = new Intent(Hanthana.this, HomeActivity.class);
+        startActivity(intent);
+    }
+
+
 
 
 }

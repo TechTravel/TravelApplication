@@ -55,4 +55,31 @@
         <item> Badulla </item>
     </string-array>
 
+    <string name="back">BACK</string>
+    <string name="img_upload">UPLOAD IMAGE</string>
+    <string name="destination">Enter destination</string>
+    <string name="joyjourney">JOYJ</string>
+    <string name="duration">Enter duration in days</string>
+    <string name="transport">Enter transportation mode</string>
+    <string name="etaccomod">Enter accommodation details</string>
+    <string name="etbudget">Enter budget per a person</string>
+    <string name="description">Further description</string>
+    <string name="save">SAVE</string>
+    <string name="delete">DELETE</string>
+    <string name="update">UPDATE</string>
+    <string name="view">VIEW</string>
+    <string name="download">DOWNLOAD</string>
+    <string name="submit">SUBMIT</string>
+    <string name="edit">EDIT</string>
+    <string name="Efeedback">Enter Feedback.....</string>
+    <!-- home page -->
+    <string name="btn_v_details">"View Details"</string>
+    <string name="btn_fav">"Favorites"</string>
+    <string name="btn_upload">"Upload New"</string>
+    <string name="btn_feedback">"Your Feedback"</string>
+    <string name="more1">"-------"</string>
+    <string name="more2">"-------"</string>
+    <string name="more3">"-------"</string>
+    <string name="todo">TODO</string>
+
 </resources>

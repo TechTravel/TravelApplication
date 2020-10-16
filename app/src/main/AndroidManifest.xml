@@ -44,11 +44,20 @@
         <activity android:name=".ImageTwo" />
         <activity android:name=".ImageOne" />
         <activity android:name=".MainActivity">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+
+        <activity android:name=".view_details"/>
+        <activity android:name=".Favorites" />
+        <activity android:name=".upload" />
+        <activity android:name=".Feedback" />
+        <activity android:name=".upload_image"/>
+        <activity android:name=".HomeActivity">
+
+
         </activity>
     </application>
 
